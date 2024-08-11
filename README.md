@@ -10,7 +10,7 @@ javac EchoClient.java
 // run server
 java EchoServer
 
-
+// Run this command in a new file
 // run client
 java EchoClient
 
