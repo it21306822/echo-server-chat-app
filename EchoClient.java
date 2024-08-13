@@ -3,7 +3,7 @@ import java.net.*;
 
 public class EchoClient {
     public static void main(String[] args) {
-        String host = "127.0.0.1"; // IP address of the server
+        String host = "3.95.162.106"; // IP address of the server
         int port = 65432; // Port to connect to
         
         try (Socket socket = new Socket(host, port);
