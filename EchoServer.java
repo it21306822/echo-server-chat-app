@@ -3,7 +3,7 @@ import java.net.*;
 
 public class EchoServer {
     public static void main(String[] args) {
-        int port = 65432; // Port to listen on
+        int port = 5770; // Port to listen on
         
         try (ServerSocket serverSocket = new ServerSocket(port)) {
             System.out.println("Server listening on port " + port);
